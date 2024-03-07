@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 
+// Home class, which is a StatefulWidget
 class Home extends StatefulWidget {
   @override
   _HomeState createState() => _HomeState();
@@ -117,7 +118,7 @@ class _HomeState extends State<Home> {
     );
   }
 }
-
+// Main method, entry point of the Flutter application
 void main() {
   runApp(MaterialApp(
     home: Home(),
